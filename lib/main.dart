@@ -206,17 +206,5 @@ class FavoritesPage extends StatelessWidget {
   }
 } 
 
-class FlutterImage extends StatelessWidget {
-  const FlutterImage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Image.asset(
-      'assets/images/flutter_01.png',
-      fit: BoxFit.contain,
-    );
-  }
-}
-
 
 
