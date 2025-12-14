@@ -185,7 +185,7 @@ class FavoritesPage extends StatelessWidget {
 
     if (appState.favorites.isEmpty) {
       return Center(
-        child: Text('No favorites.'),
+        child: Text('No favorites now.'),
       );
     }
 
@@ -205,6 +205,3 @@ class FavoritesPage extends StatelessWidget {
     );
   }
 } 
-
-
-
